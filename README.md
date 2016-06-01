@@ -9,4 +9,13 @@ This repo provides a script to download and analyse that data including:
 * Mapping to reference
 * Consensus generation
 
+You will need:
+
+* This repo
+* [poRe 0.17](https://github.com/mw55309/poRe_docs)
+* [poRe shell scripts](https://github.com/mw55309/poRe_scripts)
+* samtools (I used version 1.2)
+* bcftools (I used version 1.2)
+* R (I used version 3.1)
+
 Questions to mick.watson@roslin.ed.ac.uk
