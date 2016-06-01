@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# get Zika reference
+curl -s "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=NC_012532.1&rettype=fasta&retmode=txt" > zika_genome.fa
+
 # get the data
 wget -q http://s3.climb.ac.uk/nanopore/Zika_MP1751_PHE_Long_R9_2D.tgz
 
